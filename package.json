@@ -17,12 +17,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./node/app.js",
-    "dev": "nodemon ./express/2_http_app.js"
+    "start": "nodemon ./express/5_data.js",
+    "dev": "nodemon ./express/4_middleware.js"
   },
   "dependencies": {
     "express": "^5.1.0",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"
