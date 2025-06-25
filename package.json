@@ -18,9 +18,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./node/app.js",
-    "dev": "nodemon ./express/1_http.js"
+    "dev": "nodemon ./express/2_http_app.js"
   },
   "dependencies": {
+    "express": "^5.1.0",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
